@@ -34,7 +34,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaHtml5
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -45,7 +45,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaCss3Alt
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -56,7 +56,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaBootstrap
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -67,7 +67,7 @@ function Home() {
           <div className="progressBarContainer">
             <BiLogoTailwindCss
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -96,7 +96,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaReact
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -107,7 +107,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaNodeJs
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
@@ -118,7 +118,7 @@ function Home() {
           <div className="progressBarContainer">
             <FaGithub
               style={{
-                paddingTop: 14,
+                paddingTop: 10,
                 paddingRight: 5,
                 height: 40,
                 width: 40,
