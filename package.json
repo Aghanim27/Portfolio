@@ -1,7 +1,7 @@
 {
+  "homepage": "http://KaungHtet8.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://KaungHtet8.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
