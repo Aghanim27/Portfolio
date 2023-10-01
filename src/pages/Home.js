@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, GitHub, LinkedIn } from "@mui/icons-material";
 import "../styles/Home.css";
+<<<<<<< HEAD
 import ProgressBar from "../components/ProgressBar";
 import {
   FaReact,
@@ -11,6 +12,9 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
+=======
+import SkillLists from "../helper/SkillLists";
+>>>>>>> master
 
 function Home() {
   return (
@@ -18,6 +22,7 @@ function Home() {
       <div className="about">
         <h2> Hello, I am Kaung Htet Oo.</h2>
         <div className="prompt">
+<<<<<<< HEAD
           <p> I am a Junior Front-End Developer. </p>
           <Mail />
           <GitHub />
@@ -134,6 +139,21 @@ function Home() {
           <ProgressBar progress="65" height="30" progressText="Github" /> */}
         </div>
       </div>
+=======
+          <p> I am a Junior React Developer. </p>
+          <a href="mailto:khotheagh27798@gmail.com">
+            <Mail />
+          </a>
+          <a href="https://github.com/Aghanim27">
+            <GitHub />
+          </a>
+          <a href="https://www.linkedin.com/in/kaung-htet-62092b293/">
+            <LinkedIn />
+          </a>
+        </div>
+      </div>
+      <SkillLists />
+>>>>>>> master
     </div>
   );
 }

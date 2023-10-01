@@ -2,7 +2,11 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
+<<<<<<< HEAD
   color: #3e497a;
+=======
+  color: #00171f;
+>>>>>>> master
 }
 
 .about {
@@ -13,7 +17,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+<<<<<<< HEAD
   background-color: #21325e;
+=======
+  background-color: #00171f;
+>>>>>>> master
   color: #f0f0f0;
 }
 
@@ -35,18 +43,31 @@
 }
 
 .skills {
+<<<<<<< HEAD
   font-size: 32px;
   width: 100%;
   height: 90vh;
   margin-bottom: -140px;
+=======
+  font-size: 35px;
+  width: 100%;
+  /* height: 90vh;
+  margin-bottom: -140px; */
+>>>>>>> master
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
+<<<<<<< HEAD
 .skills h1 {
   color: #3e497a;
+=======
+.skills h2 {
+  color: #00171f;
+  text-align: center;
+>>>>>>> master
 }
 
 .skills .list {
@@ -64,12 +85,26 @@
   flex-direction: row;
 }
 
+<<<<<<< HEAD
 /* .iconStyle {
   padding-top: 15;
   padding-right: 5;
   height: 40;
   width: 40;
 } */
+=======
+@media only screen and (max-width: 1012px) {
+  .about h2 {
+    font-size: 60px;
+  }
+  .prompt p {
+    margin-top: 70px;
+  }
+  /* .prompt p {
+    font-size: 16px;
+  } */
+}
+>>>>>>> master
 
 @media only screen and (max-width: 600px) {
   .about h2 {
@@ -81,6 +116,12 @@
     font-size: 20px;
     width: 80%;
   }
+<<<<<<< HEAD
+=======
+  .prompt p {
+    margin-top: 15px;
+  }
+>>>>>>> master
 
   .skills {
     text-align: center;

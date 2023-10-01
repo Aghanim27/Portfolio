@@ -6,9 +6,19 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
+<<<<<<< HEAD
         <Instagram />
         <Facebook />
         <GitHub />
+=======
+        <a href="https://www.instagram.com/its_aghanim/">
+          <Instagram />
+        </a>
+        <Facebook
+          onClick={() => window.open("https://www.facebook.com/khotheagh")}
+        />
+        <GitHub onClick={() => window.open("https://github.com/Aghanim27")} />
+>>>>>>> master
       </div>
     </div>
   );
