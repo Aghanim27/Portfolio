@@ -1,9 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-function Projects() {
-  return <div>Projects</div>;
-=======
 import ProjectItem from "../components/ProjectItem";
 import { ProjectLists } from "../helper/ProjectLists";
 
@@ -21,7 +16,6 @@ function Projects() {
       </div>
     </div>
   );
->>>>>>> master
 }
 
 export default Projects;

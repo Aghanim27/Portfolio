@@ -6,10 +6,7 @@ import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Footer from "./components/Footer";
-<<<<<<< HEAD
-=======
 import ProjectDisplay from "./pages/ProjectDisplay";
->>>>>>> master
 
 export default function App() {
   return (
@@ -19,10 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/portfolio" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
-<<<<<<< HEAD
-=======
           <Route path="/project/:id" element={<ProjectDisplay />}></Route>
->>>>>>> master
           <Route path="/experience" element={<Experience />}></Route>
         </Routes>
         <Footer />

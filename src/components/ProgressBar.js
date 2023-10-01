@@ -12,11 +12,7 @@ const ProgressBar = ({ bgcolor, progress, height, progressText }) => {
   const Childdiv = {
     height: "100%",
     width: `${progress}%`,
-<<<<<<< HEAD
-    backgroundColor: "#3e497a",
-=======
     backgroundColor: "#00171F",
->>>>>>> master
     borderRadius: 15,
     textAlign: "center",
   };

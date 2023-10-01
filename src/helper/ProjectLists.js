@@ -1,6 +1,7 @@
 import WeatherImg from "../assets/WeatherForecast.png";
 import RestaurantImg from "../assets/Restaurant.png";
 import TodoListImg from "../assets/ToDoList.png";
+import ConfidentialImg from "../assets/ConfidentialImg.jpg";
 
 export const ProjectLists = [
   {
@@ -20,5 +21,11 @@ export const ProjectLists = [
     image: TodoListImg,
     skills: "ReactJS",
     url: "https://aghanim27.github.io/TodoList/",
+  },
+  {
+    name: "Mobile UI using React-Native",
+    image: ConfidentialImg,
+    skills: "React-Native",
+    // url: "https://aghanim27.github.io/TodoList/",
   },
 ];
