@@ -9,6 +9,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { BiLogoTailwindCss, BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 
 function SkillLists() {
   return (
@@ -68,7 +69,7 @@ function SkillLists() {
               width: 40,
             }}
           />
-          <ProgressBar progress="75" height="30" progressText="React" />
+          <ProgressBar progress="83" height="30" progressText="React" />
         </div>
         <div className="progressBarContainer">
           <FaNodeJs
@@ -82,7 +83,7 @@ function SkillLists() {
           <ProgressBar progress="35" height="30" progressText="Node" />
         </div>
         <div className="progressBarContainer">
-          <FaGithub
+          <SiExpress
             style={{
               paddingTop: 10,
               paddingRight: 5,
@@ -90,8 +91,9 @@ function SkillLists() {
               width: 40,
             }}
           />
-          <ProgressBar progress="65" height="30" progressText="Github" />
+          <ProgressBar progress="40" height="30" progressText="Express" />
         </div>
+
         <div className="progressBarContainer">
           <BiLogoMongodb
             style={{
@@ -102,6 +104,17 @@ function SkillLists() {
             }}
           />
           <ProgressBar progress="25" height="30" progressText="MongoDB" />
+        </div>
+        <div className="progressBarContainer">
+          <FaGithub
+            style={{
+              paddingTop: 10,
+              paddingRight: 5,
+              height: 40,
+              width: 40,
+            }}
+          />
+          <ProgressBar progress="65" height="30" progressText="Github" />
         </div>
         {/* <ProgressBar progress="85" height="30" progressText="CSS" />
     <ProgressBar progress="75" height="30" progressText="Bootstrap" />

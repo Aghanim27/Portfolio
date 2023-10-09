@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, GitHub, LinkedIn } from "@mui/icons-material";
+// import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import "../styles/Home.css";
 import SkillLists from "../helper/SkillLists";
 
@@ -20,6 +21,9 @@ function Home() {
             <LinkedIn />
           </a>
         </div>
+        <a href="https://drive.google.com/file/d/1HTeKNtWD4D4ljBqihptMtwyLTPTRqMy3/view?usp=sharing">
+          <button className="resumeDownloadBtn">Download My Resume!</button>
+        </a>
       </div>
       <SkillLists />
     </div>

@@ -65,6 +65,29 @@
   flex-direction: row;
 }
 
+.resumeDownloadBtn {
+  width: auto;
+  height: 60px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  /* background-color: #333; */
+  background-color: #00171f;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.resumeDownloadBtn:hover {
+  box-shadow: 0 0 20px rgba(51, 170, 255, 0.7), 0 0 40px rgba(51, 170, 255, 0.7),
+    0 0 60px rgba(51, 170, 255, 0.7);
+}
+
 @media only screen and (max-width: 1012px) {
   .about h2 {
     font-size: 60px;
