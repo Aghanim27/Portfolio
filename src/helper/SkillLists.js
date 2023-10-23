@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaGithub,
 } from "react-icons/fa";
-import { BiLogoTailwindCss, BiLogoMongodb } from "react-icons/bi";
+import { BiLogoTailwindCss, BiLogoMongodb, BiLogoRedux } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 
 function SkillLists() {
@@ -70,6 +70,17 @@ function SkillLists() {
             }}
           />
           <ProgressBar progress="83" height="30" progressText="React" />
+        </div>
+        <div className="progressBarContainer">
+          <BiLogoRedux
+            style={{
+              paddingTop: 10,
+              paddingRight: 5,
+              height: 40,
+              width: 40,
+            }}
+          />
+          <ProgressBar progress="70" height="30" progressText="Redux" />
         </div>
         <div className="progressBarContainer">
           <FaNodeJs
