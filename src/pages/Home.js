@@ -10,22 +10,22 @@ function Home() {
       <div className="about">
         <h2> Hello, I am Kaung Htet Oo.</h2>
         <div className="prompt">
-          <p> I am a Junior React Developer. </p>
+          <p> I am a Year 2 Diploma in Business Student at Temasek Polytechnic. </p>
           <a href="mailto:khotheagh27798@gmail.com">
             <Mail />
           </a>
-          <a href="https://github.com/Aghanim27">
+          {/* <a href="https://github.com/Aghanim27">
             <GitHub />
-          </a>
-          <a href="https://www.linkedin.com/in/kaung-htet-62092b293/">
+          </a> */}
+          <a href="https://www.linkedin.com/in/kaunghtetoo27/">
             <LinkedIn />
           </a>
         </div>
-        <a href="https://drive.google.com/file/d/1HTeKNtWD4D4ljBqihptMtwyLTPTRqMy3/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/17qXGIHBSVBDDT5q1eOmjFG7vmiKHV6Rn/view?usp=share_link">
           <button className="resumeDownloadBtn">Download My Resume!</button>
         </a>
       </div>
-      <SkillLists />
+      {/* <SkillLists /> */}
     </div>
   );
 }

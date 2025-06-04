@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import WorkPage from "./pages/Work";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/project/:id" element={<ProjectDisplay />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
+          <Route path="/work" element={<WorkPage />}></Route>
         </Routes>
         <Footer />
       </Router>

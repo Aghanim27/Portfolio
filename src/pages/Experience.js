@@ -12,15 +12,16 @@ function Experience() {
       <VerticalTimeline lineColor="#00171F">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2009 - 2014"
+          date="2024 - Present"
           iconStyle={{ background: "#00171F", color: "#fff" }}
           icon={<School />}
         >
           <h3 className="vertical-timeline-element-title">
-            No.24 BEHS, Mandalay, Myanmar{" "}
+            Temasek Polytechnic{" "}
           </h3>
+          <p>cGPA: 3.11</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014-2020"
           iconStyle={{ background: "#00171F", color: "#fff" }}
@@ -29,8 +30,8 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             University of Medicine, Mandalay, Myanmar
           </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
+        </VerticalTimelineElement> */}
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2022 - present"
           iconStyle={{ background: "#00A8E8", color: "#fff" }}
@@ -39,7 +40,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Started Learning Programming
           </h3>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
     </div>
   );
